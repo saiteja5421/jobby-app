@@ -1,0 +1,47 @@
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.job-item-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.a {
+  color: blue;
+  font-size: 24px;
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 90%;
+  max-width: 800px;
+}
+.li {
+  list-style-type: none;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.life-at-company {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.similar-job {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  width: 90%;
+  margin-left: 30px;
+}
+.similar-title {
+  color: aliceblue;
+  margin-left: 30px;
+  padding-left: 30px;
+}

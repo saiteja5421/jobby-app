@@ -1,0 +1,53 @@
+.job-description {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 10px;
+
+  padding: 20px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.job-logo-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.company-logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.title {
+  color: azure;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.location-employment {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.hr {
+  width: 100%;
+}
+.description {
+  color: aliceblue;
+}
+.link {
+  text-decoration: none;
+}
